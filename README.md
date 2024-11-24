@@ -17,7 +17,7 @@
         
 ## What is this?
 
-This code presents a KNN classifier implemented in C#, further enhanced by integrating it with the Neocortex API. The SE project used a sequence of values with preassigned labels to train the model. Once the model is trained, users can provide an unclassified/test sequence that needs to be labeled. We used two sequences to train the model:
+This code presents a KNN classifier implemented in C#, further enhanced by integrating it with the [Neocortex API](https://github.com/ddobric/neocortexapi). This project uses a sequence of values with preassigned labels to train the model. Once the model is trained, users can provide an unclassified/test sequence that needs to be labeled. We used two sequences to train the model:
 
 - `("S1", new List<double>(new double[] { 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0 }))`
 - `("S2", new List<double>(new double[] { 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0 }))`
